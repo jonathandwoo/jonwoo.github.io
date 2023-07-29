@@ -1,3 +1,13 @@
 body {
-  background-color: rgb(252,236,175);
+    background-color: #FCECAF;
+  }
+
+.nav{
+    color:black; 
+    font-size:larger;
+}
+
+.nav:hover{
+    font-size:x-large;
+
 }
