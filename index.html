@@ -3,15 +3,29 @@
     <head>
         <title>Jonathan Woo</title>
         <link rel="stylesheet" href="styles.css">
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+        <script type="text/javascript"
+        src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>    
     </head>
-    <body style="background-color: #FCECAF">
-        
-        <h1 style="text-align:center;font-family:'Courier New'">Jonathan Woo</h1>
-        <div style="display: flex; justify-content: space-between;">
-            <button>Math</button>
-            <button>Projects</button>
-            <button>CV/Resume</button>
-        </div>
-        
+    <body>
+        <header>
+            <a style="text-decoration: none; color:black" href="/index.html">
+                <h1 style="text-align:center;font-family:'Courier New';">
+                    $\mathbb{JONATHAN}$ $\mathbb{WOO}$
+                </h1>
+            </a>
+            <ul style="margin-left: 10%; 
+                    margin-right: 10%; 
+                    display: flex; 
+                    justify-content: space-between;
+                    list-style-type: none;">
+                <a class="nav" href="/math.html">$\mathbf{Math}$</a>
+                <a class="nav" href="/projects.html">$\mathbf{Projects}$</a>
+                <a class="nav" href="/cv.pdf">$\mathbf{CV}$</a>
+            </ul>
+        </header>
     </body>
 </html>
