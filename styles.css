@@ -1,13 +1,13 @@
 body {
-    background-color: #FCECAF;
+    background-color: #171717;
   }
 
 .nav{
-    color:black; 
+    color: whitesmoke; 
     font-size:larger;
 }
 
 .nav:hover{
-    font-size:x-large;
+    color: rgba(203, 167, 49, 0.798);
 
 }
