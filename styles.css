@@ -1,13 +1,41 @@
+@font-face {
+    font-family: computer-modern-serif-roman;
+    src: url(./fonts/cmunrm.ttf);
+}
+
+#latexfont{
+    font-family: computer-modern-serif-roman;
+    color:white;
+    text-decoration:none;
+}
+
 body {
     background-color: #171717;
   }
 
-.nav{
-    color: whitesmoke; 
-    font-size:larger;
+header{
+    padding-top: 1%;
 }
 
-.nav:hover{
-    color: rgba(203, 167, 49, 0.798);
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display:inline;
+    padding: auto;
+}
+
+nav li a{
+    color:white;
+    font-size: x-large;
+    text-align: center;
+}
+
+#introduction{
+    border-style: dotted;
+    border-color: white;
+    margin: 2% 2% 2% 2%;
 
 }
