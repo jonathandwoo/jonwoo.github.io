@@ -39,3 +39,11 @@ nav li a{
     margin: 2% 2% 2% 2%;
 
 }
+
+#notes{
+    margin:auto;
+    margin-top: 5%;
+    width: 80%;
+    border-style: dotted;
+    border-color: aliceblue;
+}
